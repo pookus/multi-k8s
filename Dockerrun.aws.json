@@ -24,7 +24,7 @@
         },
         {
             "name": "nginx",
-            "image": "willgray/multi-ngnix",
+            "image": "willgray/multi-nginx",
             "hostname": "nginx",
             "essential": true,
             "memory": 128,
