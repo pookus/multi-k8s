@@ -13,7 +13,7 @@ after_success:
     - docker build -t willgray/multi-nginx ./nginx
     - docker build -t willgray/multi-server ./server
     - docker build -t willgray/multi-worker ./worker
-    # Log in to the docker CLI
+    # Log in to the docker CLI meow
     - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
     # Take those images and push them to docker hub
     - docker push willgray/multi-client
